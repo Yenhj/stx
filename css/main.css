@@ -377,7 +377,7 @@ body {
   background-position: -140px -121px;
 }
 .business-list > li:nth-child(5) > a::after {
-  background-position: -267px, -114px;
+  background-position: -267px -114px;
 }
 /* 뉴스 */
 .news {
@@ -404,7 +404,6 @@ body {
 .news-wrap {
   position: relative;
   display: block;
-  float: left;
   width: calc(50% - 95px);
 }
 .news-inner .news-wrap:first-child {
@@ -453,7 +452,7 @@ body {
 .news-list > li > a::after {
   content: "";
   position: absolute;
-  right: 0;
+  right: 29px;
   top: 0;
   width: 48px;
   height: 23px;
@@ -471,6 +470,37 @@ body {
   position: relative;
   display: block;
 }
+.cs-link {
+  position: relative;
+  display: block;
+  width: calc(50% - 1px);
+  height: 200px;
+  background: #fff;
+  padding: 50px 60px;
+}
+.cs-inner > .cs-link:first-child {
+  float: left;
+  background: #fff url("../images/bg_faq.png") no-repeat;
+  background-position: calc(100% - 50px) 50%;
+}
+.cs-inner > .cs-link:last-child {
+  float: right;
+  background: #fff url("../images/bg_custom.png") no-repeat;
+  background-position: calc(100% - 50px) 50%;
+}
+.cs-link h3 {
+  position: relative;
+  display: block;
+  font-size: 30px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.cs-link p {
+  position: relative;
+  display: block;
+}
+
 /* 회사소개 */
 .about {
   position: relative;
